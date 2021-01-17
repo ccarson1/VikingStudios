@@ -1,6 +1,7 @@
 body{
 	background: white;
 	margin: 0;	
+	font-family: "Open Sans"
 }
 #header{
 	border-bottom-style: solid;
@@ -38,6 +39,7 @@ body{
 	margin-top: 1%;
 	margin-right: 5%;
 	font-size: 2em;
+	font-family: "Rock Salt";
 	
 }
 #btnLogin{
