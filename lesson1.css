@@ -1,16 +1,22 @@
 body{
 	background: white;
+	background-repeat: no-repeat;
 	margin: 0;	
-	font-family: "Open Sans"
+	font-family: "Open Sans";
+	
+	
 }
 #header{
 	border-bottom-style: solid;
 	border-width: 1px;
+	background-color: white;
+	postion: fixed;
 }
 
 #nav-1{
 	overflow: hidden;
 	padding: 0;
+	
 }
 
 #nav-1 a {
@@ -42,7 +48,7 @@ body{
 	font-family: "Rock Salt";
 	
 }
-#btnLogin{
+.button1{
 	margin-left: 75%;
 	margin-top: 2%;
 	padding: 1em 2em;
@@ -52,4 +58,87 @@ body{
 	text-align: center;
 	border-radius: .5em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+#button1{
+	position: absolute;
+	font-size: 1.5em;
+}
+#reg{
+	margin-left: 35%;
+	margin-top: 60%;
+	margin-bottom: 5%;
+	width: 525px;
+	height: 275px;
+	border: solid;
+	border-width: 1px;
+	text-align: center;
+	background-color: #1E90FF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#btnReg{
+	margin-top: 2em;
+	
+}
+.regStyles{
+	font-size: .6em;
+	text-align: left;
+}
+.regStyles li{
+	padding-top: 1em;
+}
+#sec2{
+	background-color: white;
+	text-align: center;
+	padding: 10%;
+	font-size: 3em;
+	color: #1E90FF;
+}
+/* styles for the gallery page */
+
+div.gallery{
+	margin: 5%;
+	border: 1px solid;
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+div.gallery:hover{
+	border: 1px solid #777;
+}
+div.gallery img{
+	width: 100%;
+	height: auto;
+	width: 200px;
+	height: 400px;
+	
+}
+#galSearch{
+	margin-left: 50%;
+	padding: .8em;
+	border: solid black;
+	border-width: 3px;
+	margin-right: 3%;
+	font-size: 17px;
+	width: 20em;
+}
+#searchCon{
+	padding: 2%;
+	text-align: center;
+	margin: 0;
+}
+
+#searchCon h1{
+	font-size: 3em;
+	font-family: "Rock Salt";
+}
+#btnPicAdd{
+	background-color: #fc5203;
+	border: none;
+	color: white;
+	text-align: center;
+	border-radius: .5em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: -50%;
+	font-size: 1.5em;
+	padding: 1em 2em;
 }
